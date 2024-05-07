@@ -16,7 +16,7 @@ export default class MyCompany extends React.Component<IMyCompanyProps, {}> {
 
     return (
       <div style={{ background: 'antiquewhite', border: 'double', borderRadius: '25px'}}>
-        <h1 style={{ textAlign: 'center', }}>Company Announcements</h1>
+        <h1 style={{ textAlign: 'center', color: "#663a3a"}}>Company Announcements</h1>
         <div style={{ borderBottom: '2px solid #333' }}></div>
         <MyCompanyApp props={this.props} />
       </div>
